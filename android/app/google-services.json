@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "781901703850",
+    "project_id": "angelina-cafe",
+    "storage_bucket": "angelina-cafe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781901703850:android:eddd2168a06f058a57bed3",
+        "android_client_info": {
+          "package_name": "com.angelinacafe.proyectoangelinacafeg6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781901703850-k97m87p4q5b36tmk0s4iem1jffi6u3da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angelinacafe.proyectoangelinacafeg6",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "781901703850-jela8o2d5cutufi1s5o2os1o8slm1ut4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjo7zYD0jWP68Az5F7znexYCOA2nTrBnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781901703850-jela8o2d5cutufi1s5o2os1o8slm1ut4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "781901703850-u86kmo0qd8gp9ofabnqftfb981dp8rl5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.angelinacafe.proyectoangelinacafeg6"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
