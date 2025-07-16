@@ -1,4 +1,3 @@
-import '/components/navigation_back/navigation_back_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'editar_producto_a_d_m08_widget.dart' show EditarProductoADM08Widget;
 import 'package:flutter/material.dart';
@@ -7,8 +6,6 @@ class EditarProductoADM08Model
     extends FlutterFlowModel<EditarProductoADM08Widget> {
   ///  State fields for stateful widgets in this page.
 
-  // Model for NavigationBack component.
-  late NavigationBackModel navigationBackModel;
   // State field(s) for txtNombreEditProducto widget.
   FocusNode? txtNombreEditProductoFocusNode;
   TextEditingController? txtNombreEditProductoTextController;
@@ -28,13 +25,10 @@ class EditarProductoADM08Model
   bool? checkboxValue;
 
   @override
-  void initState(BuildContext context) {
-    navigationBackModel = createModel(context, () => NavigationBackModel());
-  }
+  void initState(BuildContext context) {}
 
   @override
   void dispose() {
-    navigationBackModel.dispose();
     txtNombreEditProductoFocusNode?.dispose();
     txtNombreEditProductoTextController?.dispose();
 
